@@ -1,0 +1,16 @@
+= graphene-elasticsearch
+
+Integrate Graphene and Elasticsearch with DocumentObjectType and DocumentConnectionField
+
+NOTE: This is from a project I was working on in 2017 that was put on hold.
+I would be happy to contribute this code to another project or add maintainers to this project.
+
+IMPORTANT: This is just the raw code right now.
+If there is interest I could use https://github.com/audreyr/cookiecutter-pypackage[cookiecutter-pypackage] to make it an installable package.
+
+This package roughly mirrors how graphene_django works but for ElasticSearch Documents instead of Django Models.
+
+It provides DocTypes that are similar to Django Models.
+
+So far I have DocumentObjectType and DocumentConnectionField.
+
